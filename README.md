@@ -10,20 +10,7 @@ yarn install
 yarn run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### Async Component Webshop
 
-### Run your tests
-```
-yarn run test
-```
+![alt text](https://i.ibb.co/RBQyHxS/Screen-Shot-2018-11-24-at-23-53-00.png "Webshop Layout")
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
