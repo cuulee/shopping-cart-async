@@ -4,7 +4,7 @@
             <Row :gutter="16">
                 <Col :span="24" style="padding:5px">
                     <Icon type="shopping-cart" style="margin-right:5px"/>{{shoppingList.length}} item(s)
-                    <Button style="background-color:#e55242; color:white; margin-left:10px" @click="show = true">Checkout</Button>
+                    <Button @click="show = true" id="checkout">Checkout</Button>
                 </Col>
             </Row>
         </div>
@@ -55,3 +55,10 @@ export default {
     })
 }
 </script>
+<style>
+#checkout {
+    background-color:#e55242; 
+    color:white; 
+    margin-left: 10px;
+}
+</style>
